@@ -1,0 +1,21 @@
+id,date,sender,recipient,place,title
+B001,1742-01-12,Anna Keller,Johann Berger,Berlin,Bericht über die Sammlung
+B002,1742-02-03,Johann Berger,Anna Keller,Potsdam,Antwort zur Inventur
+B003,1742-02-29,Anna Keller,Elise Hartmann,Berlin,Ein unklarer Termin
+B004,1742-03-14,Elise Hartmann,Johann Berger,Leipzig,Anfrage zu Handschriften
+B005,1742-04-08,Johann Berger,Elise Hartmann,Berlin,Lieferung
+B006,1742-05-11,Anna Keller,Johann Berger,Potsdam,Notizen
+B007,1742-06-22,Elise Hartmann,Anna Keller,Leipzig,Bestandsliste
+B008,1742-07-07,Johann Berger,Anna Keller,Berlin,Besprechung
+B009,1742-08-19,Anna Keller,Elise Hartmann,Berlin,Nachtrag
+B010,1742-09-30,Elise Hartmann,Johann Berger,Potsdam,Einladung
+B011,1742-10-04,Johann Berger,Elise Hartmann,Leipzig,Verzeichnis
+B012,1742-11-13,Anna Keller,Johann Berger,Berlin,Brief
+B013,1743-01-02,Elise Hartmann,Anna Keller,Berlin,Jahreswechsel
+B014,1743-02-17,Johann Berger,Anna Keller,Potsdam,Übermittlung
+B015,1743-03-25,Anna Keller,Elise Hartmann,Leipzig,Sammlung
+B016,1743-04-10,Elise Hartmann,Johann Berger,Berlin,Bericht
+B017,1743-05-20,Johann Berger,Elise Hartmann,Berlin,Anmerkungen
+B018,1743-06-31,Anna Keller,Johann Berger,Potsdam,Fragwürdiges Datum
+B019,1743-07-18,Elise Hartmann,Anna Keller,Leipzig,Nachricht
+B020,1743-08-21,Johann Berger,Anna Keller,Berlin,Abschluss
