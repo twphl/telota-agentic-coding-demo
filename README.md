@@ -1,6 +1,6 @@
 # TELOTA Agentic Coding Demo
 
-Kleines, bewusst unvollständiges Übungsrepository für die OMP-Live-Demo am 28.10.2026 (Folien 10–14). **Nicht** das eigentliche Workshop-Kit oder der Otter-Korpus.
+Ein bewusst unvollständiges Mini-Forschungsprojekt für die **maximal zehnminütige** OMP-Live-Demo am 28.10.2026. Die 20 historischen Briefe sind vollständig fiktiv.
 
 ## Start
 
@@ -11,16 +11,20 @@ python -m unittest discover -s tests -v
 omp
 ```
 
-## Live-Auftrag
+## Hauptdemo: Datumsvalidierung (Issue #1)
 
-1. Projektstruktur und `AGENTS.md` lesen, zunächst nichts ändern.
-2. `scripts/projektstart.py` ergänzen: Projektordnername und sichtbare direkte Unterordner ausgeben.
-3. Nur Python-Standardbibliothek; Quelldaten nicht verändern; keine Abhängigkeiten ergänzen.
-4. Skript ausführen, Ausgabe mit Ordnerstruktur vergleichen.
-5. **Nachforderung live:** Skript muss auch aus einem anderen Arbeitsverzeichnis funktionieren.
+- Zuerst Repository und `AGENTS.md` untersuchen, noch nichts ändern.
+- `scripts/validate.py` prüft derzeit nur das Zeichenformat, nicht die kalendarische Gültigkeit.
+- `data/documents.csv` enthält zwei unmögliche Daten; sie dürfen **nicht korrigiert** werden.
+- Plan erstellen, minimalen Bugfix implementieren, Tests und Skript ausführen, Git-Diff kontrollieren.
+- **Optionale Nachforderung:** Fehler als CSV-Bericht ausgeben, ohne Quelldaten zu verändern (Issue #2).
 
-Die Datei `scripts/projektstart.py` ist absichtlich unvollständig. Die Tests beschreiben das gewünschte Verhalten und schlagen vor der Umsetzung fehl. Die Nachforderung sollte erst im Live-Teil genannt werden.
+Die Tests schlagen im Ausgangszustand absichtlich fehl. `scripts/statistics.py` bietet eine kleine funktionierende Vergleichsaufgabe. `scripts/projektstart.py` ist eine separate, einfachere Fallback-Demo.
+
+## Zeitbudget
+
+2 Minuten Orientierung, 2 Minuten Plan, 4 Minuten Umsetzung, 2 Minuten Prüfung. Nach Minute 8 keine neue Aufgabe beginnen. `docs/demo-ablauf.md` enthält die Moderation.
 
 ## Abgrenzung
 
-Der eigentliche Workshop verwendet das separate GitLab-Workshop-Kit, Copier und TEI-Daten unter `data/corpus/tei/`. Dieses GitHub-Repository dient nur der kurzen OMP-Vorführung.
+Das eigentliche Workshop-Kit mit Copier und TEI-Korpus liegt separat in GitLab. Dieses GitHub-Repository ist nur die Live-Demo.
